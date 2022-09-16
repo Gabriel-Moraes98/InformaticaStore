@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style-type: none;
+}
+
+main {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #ccc;
+}
+
+main header {
+  display: flex;
+  width: 100%;
+  height: 110px;
+  padding: 10px;
+  background-color: #fff;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+}
+
+main header .title {
+  padding-left: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+main header i{
+    margin:10px;
+}
+
+main header .title:hover {
+  color: orange;
+}
+
+main header .menu ul {
+  display: flex;
+}
+
+main header .menu ul li {
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+main header .menu ul li:hover {
+  color: orange;
+  background-color: #ccc;
+}
+
+.carrinho, .busca{
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    font-size: 20px;
+}
+
+.busca{
+    right:110px;
+}
+
+.carrinho:hover{
+    cursor: pointer;
+    color: orange;
+}
+
+.busca:hover{
+    cursor: pointer;
+    color: orange;
+}
+
+.middle {
+  width: 100%;
+}
+
+.container-middle {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+
+.container-middle .produtos1 {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 50%;
+}
+
+.container-middle .produtos2 {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 50%;
+}
+
+.imagem img {
+  width: 100px;
+  height: 100px;
+  margin-right: 16px;
+}
+
+.container-middle .produtos1 .informacoes {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.container-middle .produtos1 .informacoes a{
+    padding: 2px 10px;
+    background-color: darkcyan;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.container-middle .produtos1 .informacoes:hover {
+  color: #44a566;
+}
+
+.container-middle .produtos2 .informacoes {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.container-middle .produtos2 .informacoes a{
+    padding: 2px 10px;
+    background-color: darkcyan;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.container-middle .produtos2 .informacoes:hover {
+  color: #44a566;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height:80px ;
+  background-color: #aaa;
+}
+
+footer ul li {
+  padding: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+footer ul li:hover {
+  color: orange;
+  background-color: #fff;
+}
